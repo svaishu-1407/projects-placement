@@ -1,0 +1,40 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.animal{
+    display: flex;
+    justify-content: space-around;
+    background-color:rgb(189, 151, 223);
+}
+.animal_image{
+
+    margin-top:50px;
+    margin-left:10px;
+}
+.animal_image audio{
+    margin-top: 10px;
+    margin-left: -10px;
+
+}
+.animal_video{
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+.animal_details{
+    margin-top: 50px;
+}
+ 
+.animal1{
+    display: flex;
+    background-color: rgb(188, 115, 115);
+}
+.details{
+    display: flex;
+    background-color: rgb(233, 219, 201);
+    padding-left:500px;
+}
+.head{
+    background-color: rgb(93, 119, 110);
+}
