@@ -1,0 +1,45 @@
+*{
+    margin:0;
+    padding:0;
+}
+.cals{
+    height: 400px;
+    width: 320px;
+    background-color: darkcyan;
+    border-radius: 10px;
+     padding-top:-25px; 
+
+}
+.space{
+    background-color: darkcyan;
+}
+
+
+
+
+.display input {
+    width: 85%;          
+    height: 60px;       
+    margin: 20px auto;    
+    display: block;    
+    padding: 10px;
+    border: none;
+    outline: none;      
+    margin-top: 150px;  
+    
+    background-color: aliceblue;
+    border-radius: 10px;
+    text-align: right;   
+    font-size: 22px;      
+    box-sizing: border-box;
+}
+
+
+.btn{
+    width: 250px;
+    height: 60%;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap:10px;
+    border-radius: 10px;
+}
